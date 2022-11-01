@@ -33,8 +33,8 @@ export default class Index extends Component<PropsWithChildren,any> {
     return (
       <View className='index'>
         <Text>tab页1</Text>
-        {route.length==1&&<View>点第二个tab页</View>}
-        {route.length>2&&<View>去点浏览器回退按钮</View>}
+        {route.length==1&&<View className='tip'>点第二个tab页</View>}
+        {route.length>2&&<View className='tip'>去点浏览器回退按钮</View>}
         
         <View>route
           <br />
